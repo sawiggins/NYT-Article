@@ -1,0 +1,185 @@
+/* Stephanie Wiggins */
+
+html, body, main {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+    box-sizing: border-box;
+}
+
+/* NAV */
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    /* justify-content: center; */
+    align-items: center;
+    border-bottom: 1px #dddddd solid;
+    background-color: white;
+
+}
+
+.logo {
+    max-width: 200px;
+    flex-grow: 5;
+    padding: 1em;
+    flex-grow: 2;
+
+}
+
+.space {
+    flex-grow: 1;
+}
+
+.icon {
+    max-height: 20px;
+    padding: 0 1em;
+}
+
+.navLinks {
+    margin-top: 65px;
+    font-family: Arial, sans-serif;
+    float: right;
+    margin-right: 2%;
+
+}
+
+.navLinks a {
+    text-decoration: none;
+    font-size: 10px;
+    color: #7d879d;
+    
+}
+
+
+/* MAIN */
+
+.article {
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-style: italic;
+    max-width: 650px;
+    width: 80%;
+}
+
+.article img {
+    max-width: 1000px;
+    width: 100%;
+    flex-shrink: 1;
+}
+
+#caption {
+    font-size: 10px;
+    color: grey;
+    max-width: 650px;
+}
+
+.articleBody {
+    max-width: 650px;
+    width: 80%;
+}
+
+.articleBody p {
+    font-size: 18px;
+    line-height: 1.25;
+    
+}
+
+.articleBody img {
+    max-width: 650px;
+}
+
+#by {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#date {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+#footnote {
+    color: grey;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.articleEnd {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 3em;
+    
+}
+
+button {
+    background-color: #7d879d;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    padding: 1em 5em;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.footerSpace {
+    flex-grow: 1;
+}
+
+#dot {
+    height: 25px;
+    width: 25px;
+    background-color: grey;
+    border-radius: 50%;
+    margin-left: 1em;
+  }
+
+  /* FOOTER */
+
+  .footer {
+    border-top: 2px solid grey;
+    width: 100%;
+    margin-top: 3em;
+  }
+
+.footer p {
+    font-family: Arial, sans-serif;
+    color: grey;
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+}
+/* 
+.footerLinks {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer li {
+    font-family: Arial, sans-serif;
+    color: grey;
+    font-size: 10px;
+    list-style: none;
+    margin: .5em;
+}
